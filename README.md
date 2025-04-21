@@ -26,7 +26,7 @@ Aplicación de escritorio para gestión de contactos desarrollada en Python con 
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/agenda-contactos.git
+   git clone https://github.com/guizafj/agenda-contactos.git
    cd agenda-contactos
 
 2. Instala las dependencias:
@@ -51,20 +51,20 @@ Aplicación de escritorio para gestión de contactos desarrollada en Python con 
 
 ## Estructura del proyecto 🗂️
 
-/agenda-contactos
-│
-├── /src
-│   ├── gui_agenda.py       # Interfaz gráfica principal
-│   ├── manejo_base_datos.py # Clase para manejo de la base de datos
-│   ├── funcionalidad.py     # Lógica de negocio
-│   ├── models.py           # Modelo de datos (Persona)
-│   └── __init__.py         # Para tratar el directorio como paquete
-│
-├── main.py                 # Punto de entrada de la aplicación
-├── .env                    # Configuración de entorno (opcional)
-├── requirements.txt        # Dependencias
-├── README.md               # Documentación
-└── /docs                   # Documentación adicional (opcional)
+    /agenda-contactos
+    │
+    ├── /src
+    │   ├── gui_agenda.py       # Interfaz gráfica principal
+    │   ├── manejo_base_datos.py # Clase para manejo de la base de datos
+    │   ├── funcionalidad.py     # Lógica de negocio
+    │   ├── models.py           # Modelo de datos (Persona)
+    │   └── __init__.py         # Para tratar el directorio como paquete
+    │
+    ├── main.py                 # Punto de entrada de la aplicación
+    ├── .env                    # Configuración de entorno (opcional)
+    ├── requirements.txt        # Dependencias
+    ├── README.md               # Documentación
+    └── /docs                   # Documentación adicional (opcional)
 
 ## Roadmap y mejoras futuras 🔮
 

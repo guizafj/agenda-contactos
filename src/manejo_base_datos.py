@@ -158,7 +158,3 @@ if __name__ == '__main__':
 
     # Cerrar la conexión
     conexion.cerrar_conexion()  # Cerramos la conexión a la base de datos
-
-
-
-

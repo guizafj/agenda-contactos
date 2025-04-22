@@ -156,4 +156,3 @@ if __name__ == '__main__':
     # Eliminar un contacto
     if contactos:
         funcionalidad.eliminar_contacto(contactos[0].id)
-

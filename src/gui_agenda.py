@@ -185,5 +185,3 @@ class AgendaApp(tk.Tk):
             self.id_contacto = None  # Reiniciamos el ID del contacto seleccionado
         else:
             print("El formulario no ha sido inicializado correctamente.")  # Mensaje de depuración
-
-

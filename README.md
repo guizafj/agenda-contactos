@@ -1,53 +1,24 @@
-# Agenda de Contactos 📖✏️
+# 📒 Agenda de Contactos
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?logo=sqlite&logoColor=white)
-![Tkinter](https://img.shields.io/badge/GUI-Tkinter-%230D8ABC)
-
-Aplicación de escritorio para gestión de contactos desarrollada en Python con interfaz gráfica (Tkinter) y base de datos SQLite.
+Agenda de Contactos es una aplicación de escritorio desarrollada en Python utilizando Tkinter como interfaz gráfica y SQLite como base de datos. Permite gestionar contactos de manera sencilla y eficiente, ofreciendo funcionalidades completas de CRUD (Crear, Leer, Actualizar, Eliminar).
 
 
 ## Características principales ✨
 
-- 🏗️ Arquitectura MVC implícita bien estructurada
-- 🗃️ Persistencia de datos con SQLite
-- 🖥️ Interfaz gráfica con Tkinter/ttk
-- ✅ Validación robusta de datos
-- 📊 Operaciones CRUD completas
-- 📤📥 Importación/exportación CSV
-- 🪵 Sistema de logging de errores
+- 👤 Gestión de Contactos: Añadir, editar y eliminar contactos fácilmente.
+- 🔍 Búsqueda Rápida: Buscar contactos por nombre o cualquier otro campo.
+- 💾 Persistencia de Datos: Almacenamiento de contactos utilizando SQLite.
+- 📄 Exportación e Importación: Exportar e importar contactos en formato CSV.
+- 🖥️ Interfaz Intuitiva: Diseño amigable y responsivo con Tkinter/ttk.
+- ✅ Validación de Datos: Validación robusta para asegurar la integridad de los datos.
+- 🧰 Arquitectura MVC: Estructura del proyecto basada en el patrón Modelo-Vista-Controlador.
 
-## Requisitos del sistema 💻
+## 🛠️ Tecnologías Utilizadas
 
-- Python 3.8 o superior
-- Librerías listadas en `requirements.txt`
-
-## Instalación ⚙️
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/guizafj/agenda-contactos.git
-   cd agenda-contactos
-
-2. Instala las dependencias:
-    ```bash
-    pip install -r requirements.txt
-
-3. Ejecuta la aplicación:
-    ```bash
-    python main.py
-
-## Uso 🚀
-
-1. Agregar contacto: Completa el formulario y haz clic en "Guardar"
-
-2. Editar contacto: Selecciona un contacto de la tabla, modifica los datos y haz clic en "Guardar"
-
-3. Eliminar contacto: Selecciona un contacto y haz clic en "Eliminar"
-
-4. Buscar contactos: Usa la barra de búsqueda (por implementar)
-
-5. Importar/exportar: Usa los menús correspondientes (por implementar)
+- Lenguaje de Programación: Python 3.8 o superior
+- Interfaz Gráfica: Tkinter / ttk
+- Base de Datos: SQLite
+- Gestión de Dependencias:`requirements.txt`
 
 ## Estructura del proyecto 🗂️
 
@@ -64,13 +35,48 @@ Aplicación de escritorio para gestión de contactos desarrollada en Python con 
     ├── .env                    # Configuración de entorno (opcional)
     ├── requirements.txt        # Dependencias
     ├── README.md               # Documentación
-    └── /docs                   # Documentación adicional (opcional)
+    └── LICENSE                 # Licencia del proyecto
+
+## ⚙️ Instalación y Ejecución
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/guizafj/agenda_contactos_tkinter.git
+   cd agenda_contactos_tkinter
+
+2. Crear y Activar un Entorno Virtual (opcional)
+    ```bash
+    python -m venv env
+    source env/bin/activate  # En Windows: env\Scripts\activate
+
+3. Instala las dependencias:
+    ```bash
+    pip install -r requirements.txt
+
+4. Ejecuta la aplicación:
+    ```bash
+    python main.py
+
+## Uso 🚀
+
+1. Agregar contacto: Completa el formulario y haz clic en "Guardar"
+
+2. Editar contacto: Selecciona un contacto de la tabla, modifica los datos y haz clic en "Guardar"
+
+3. Eliminar contacto: Selecciona un contacto y haz clic en "Eliminar"
+
+4. Buscar contactos: Usa la barra de búsqueda (por implementar)
+
+5. Importar/exportar: Usa los menús correspondientes (por implementar)
+
+## 📸 Capturas de Pantalla
+
+    Nota: Aquí se incluiran imágenes o gifs que muestren la interfaz de usuario, como la lista de contactos, el formulario de edición, etc.
+
 
 ## Roadmap y mejoras futuras 🔮
 
 * Añadir autenticación de usuarios
-
-* Implementar búsqueda en tiempo real
 
 * Añadir categorías/etiquetas para contactos
 
@@ -78,8 +84,28 @@ Aplicación de escritorio para gestión de contactos desarrollada en Python con 
 
 * Exportación a PDF y otros formatos
 
-## Contribución 🤝
+## 🤝 Contribuciones
 
-Las contribuciones son bienvenidas. Por favor abre un issue para discutir los cambios propuestos.
+¡Las contribuciones son bienvenidas! Si deseas colaborar:
 
-Desarrollado con ❤️ por Francisco J Diaz G
+    Haz un fork del repositorio.
+
+    Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
+
+    Realiza tus cambios y haz commit (git commit -m 'Añadir nueva funcionalidad').
+
+    Sube tus cambios a tu fork (git push origin feature/nueva-funcionalidad).
+
+    Abre un Pull Request describiendo tus cambios.
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+## 📬 Contacto
+
+Para consultas o sugerencias:
+
+    Autor: guizafj
+
+    Correo: contacto@dguiza.dev

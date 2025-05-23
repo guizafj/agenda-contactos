@@ -1,4 +1,4 @@
-Python >= 3.8
-tkinter (incluido en Python estándar)
-sqlite3 (incluido en Python estándar)
 python-dotenv >= 0.19.0
+tkinter
+sqlite3
+csv
